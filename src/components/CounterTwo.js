@@ -2,7 +2,8 @@ import React from "react";
 
 const CounterTwo = () => {
 	const inialCount = 0;
-	const [count, setCount] = React.useState(inialCount);
+    const [count, setCount] = React.useState(inialCount);
+    
 	const incrementFive = () => {
 		for (let i = 0; i < 5; i++) {
 			setCount((prevCount) => prevCount + 1);
