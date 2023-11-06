@@ -1,11 +1,11 @@
 import "./App.css";
-import Counter from "./components/Counter";
+import CounterTwo from "./components/CounterTwo";
 
 function App() {
 	return (
 		<>
 			<h1>App.js</h1>
-			<Counter />
+			<CounterTwo />
 		</>
 	);
 }
